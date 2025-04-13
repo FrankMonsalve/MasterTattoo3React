@@ -1,0 +1,153 @@
+.tabla-artistas-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-artistas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.tabla-artistas th,
+.tabla-artistas td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-artistas th {
+  background-color: #222;
+  color: #fff;
+}
+
+.tabla-artistas tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla-artistas tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Estilo formulario */
+.form-crear-artista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  max-width: 300px;
+}
+
+.form-crear-artista label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.form-crear-artista input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.form-crear-artista button {
+  margin-top: 1rem;
+  align-self: flex-start;
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.form-crear-artista button:hover {
+  background-color: #444;
+}
+
+.btn-editar,
+.btn-eliminar {
+  margin: 0 5px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-editar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-icono {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  margin: 0 4px;
+}
+
+.btn-icono:hover svg {
+  color: #007bff;
+}
+
+.btn-icono:last-child:hover svg {
+  color: #dc3545;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.form-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+/* Añadir un efecto de hover a los botones */
+.p-button-sm {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.p-button-sm:hover {
+  background-color: #0056b3;  /* Color más oscuro para el hover */
+  transform: scale(1.05);  /* Aumenta ligeramente el tamaño */
+}
+
+/* Botón de eliminar con color de fondo más notorio */
+.p-button-danger:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+/*as*/

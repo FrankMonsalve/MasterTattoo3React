@@ -1,0 +1,16 @@
+.formulario-artista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .formulario-artista .p-float-label {
+    margin-bottom: 1rem;
+  }
+  
